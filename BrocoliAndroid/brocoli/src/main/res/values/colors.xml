@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color> <!-- Connecting -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Connected -->
+    <color name="colorAccent">#FF4081</color> <!-- Not Connected -->
+    <color name="colorLightAccent">#78ff4081</color>
+    <color name="colorLightGreen">#2ecc71</color>
+    <color name="colorGreen">#27ae60</color>
+    <color name="ic_launcher_background">#303F9F</color>
+</resources>

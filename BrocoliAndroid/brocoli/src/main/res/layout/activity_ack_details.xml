@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        tools:context=".ui.activities.AckDetailsActivity">
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0F8FF"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textColorHighlight="@color/colorAccent"
+            android:padding="2dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="bold"
+            android:text="TextView"/>
+
+        <TextView
+            android:id="@+id/tv_expiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_id"
+            android:background="#F0F8FF"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textColorHighlight="@color/colorAccent"
+            android:padding="2dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="TextView"/>
+
+
+
+
+    </RelativeLayout>

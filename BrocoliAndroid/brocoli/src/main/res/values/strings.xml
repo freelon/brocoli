@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">brocoliadhoclibrary</string>
+    <string name="service_label">ServiceLabel</string>
+    <string name="local_service_running_notification_id">adhoc_service_id</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="error_message">An error has occurred. Please try again by clicking REFRESH</string>
+    <string name="title_log_upload_done_short">Analysedaten hochgeladen</string>
+    <string name="title_log_upload_done_long">Die Protokolldaten der Robusten Kommunikation wurden hochgeladen. Vielen Dank für die Unterstützung!</string>
+    <string name="log_channel_description">Benachrichtigungen über den Austausch der Analyseprotokolle mit BRoCoLi Servern</string>
+
+    <string name="action_search">Filter</string>
+</resources>

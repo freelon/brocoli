@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".ui.activities.MessageDetailsActivity">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F8FF"
+        android:padding="2dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_id"
+        android:background="#F0F8FF"
+        android:padding="2dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_from"
+        android:background="#F0F8FF"
+        android:padding="2dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_to"
+        android:background="#F0F8FF"
+        android:padding="2dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_time_to_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:background="#F0F8FF"
+        android:padding="2dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time_to_live"
+        android:background="#F0F8FF"
+        android:padding="2dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_service"
+        android:background="#F0F8FF"
+        android:padding="2dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@color/colorAccent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_priority" >
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+    </ScrollView>
+
+</RelativeLayout>

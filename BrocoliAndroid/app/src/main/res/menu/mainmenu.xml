@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/startAdHoc"
+        android:title="Start Ad Hoc"
+        app:showAsAction="never" />
+    <item android:id="@+id/showNeighborsMenu"
+        android:title="Show Neighbors"
+        app:showAsAction="never" />
+    <item android:id="@+id/stopAdHoc"
+        android:title="Stop Ad Hoc"
+        app:showAsAction="never" />
+    <item android:id="@+id/uploadLogs"
+        android:title="Upload Logs (needs internet)"
+        app:showAsAction="never" />
+    <item android:id="@+id/clearAll"
+        android:title="Clear All"
+        app:showAsAction="never" />
+</menu>
